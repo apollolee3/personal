@@ -5,6 +5,7 @@ export default function Home() {
     <>
       <Head>
         <title>Apollo Lee</title>
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-b from-blue-300 to-white">
         <h1 className="text-5xl font-bold text-gray-900">Apollo Lee</h1>
