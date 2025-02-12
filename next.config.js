@@ -5,7 +5,7 @@ const nextConfig = {
   images: {
     unoptimized: true, // Fixes missing images
   },
-  assetPrefix: process.env.NODE_ENV === "production" ? "" : "", // Leave blank since repo matches domain
+  assetPrefix: "", // Leave this empty since you're using a custom domain
 };
 
 module.exports = nextConfig;
