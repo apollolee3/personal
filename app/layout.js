@@ -16,12 +16,11 @@ export const metadata = {
   description: "I'm a BS/MS student at Stanford studying EE.",
 };
 
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} font-[var(--font-cmu-serif)] antialiased`}
       >
         {children}
       </body>
