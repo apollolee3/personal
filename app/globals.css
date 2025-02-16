@@ -31,23 +31,21 @@
   font-style: italic;
 }
 
-/* Dark/Light Mode Variables */
+/* Light Yellow Theme with Paper Texture */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #fffbeb; /* Very Light Yellow */
+  --foreground: #000000; /* Pure Black Text */
   --font-cmu-serif: 'CMU Serif', serif;
+  /* --texture: url('/textures/embossed-paper.png'); /* Path to your texture */ 
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-/* Apply CMU Serif as Default Font */
-body {
+/* Ensure dark mode does not override it */
+html, body {
   color: var(--foreground);
-  background: var(--background);
+  background-color: var(--background) !important; /* Force background */
+  background-image: var(--texture); /* Apply Texture */
+  background-size: 300px; /* Adjust for better effect */
+  background-repeat: repeat; /* Tile texture */
+  background-position: center;
   font-family: var(--font-cmu-serif);
 }
