@@ -33,7 +33,7 @@
 
 /* Light Yellow Theme with Paper Texture */
 :root {
-  --background: #fffbeb; /* Very Light Yellow */
+  --background: #fffbe5; /* Very Light Yellow */
   --foreground: #000000; /* Pure Black Text */
   --font-cmu-serif: 'CMU Serif', serif;
   /* --texture: url('/textures/embossed-paper.png'); /* Path to your texture */ 
