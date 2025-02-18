@@ -25,7 +25,7 @@ export default function Home() {
           </a>
           <a 
             href="mailto:apollo1@stanford.edu" 
-            className="relative top-[-3.7px] text-[27px] left-[2.5px] hover:scale-110 transition-transform"
+            className="relative top-[-3.2px] text-[27px] left-[2.5px] hover:scale-110 transition-transform"
           >
             ✉️
           </a>
