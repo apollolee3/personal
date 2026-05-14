@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Define CMU Serif Font Faces */
 @font-face {
   font-family: 'CMU Serif';
   src: url('/fonts/cmunrm.woff') format('woff');
@@ -31,21 +30,15 @@
   font-style: italic;
 }
 
-/* Light Yellow Theme with Paper Texture */
 :root {
-  --background: #fdfaec; /* Very Light Yellow */
-  --foreground: #000000; /* Pure Black Text */
+  --background: #fdfaec;
+  --foreground: #000000;
   --font-cmu-serif: 'CMU Serif', serif;
-  /* --texture: url('/textures/embossed-paper.png'); /* Path to your texture */ 
 }
 
-/* Ensure dark mode does not override it */
-html, body {
+html,
+body {
   color: var(--foreground);
-  background-color: var(--background) !important; /* Force background */
-  background-image: var(--texture); /* Apply Texture */
-  background-size: 300px; /* Adjust for better effect */
-  background-repeat: repeat; /* Tile texture */
-  background-position: center;
+  background-color: var(--background);
   font-family: var(--font-cmu-serif);
 }
