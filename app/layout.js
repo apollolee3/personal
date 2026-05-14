@@ -2,7 +2,7 @@ import "./globals.css";
 
 export const metadata = {
   title: "Apollo Lee",
-  description: "I'm a BS/MS student at Stanford studying EE.",
+  description: "I study EE (BS/MS) at Stanford.",
 };
 
 export default function RootLayout({ children }) {
