@@ -29,13 +29,12 @@ export default function Home() {
           Previously, I interned as a QR at{" "}
           <A href="https://www.imc.com/us">IMC Trading</A>, where I developed a
           volatility alpha strategy on the systematic equity options desk. I
-          also built LLM e-commerce agents at{" "}
-          <A href="https://www.amazon.com/">Amazon</A> and test hardware for
-          the V4 Supercharger and Gen 3 Mobile Connector at{" "}
-          <A href="https://www.tesla.com/">Tesla</A>.
+          also built test hardware for the V4 Supercharger and Gen 3 Mobile
+          Connector at <A href="https://www.tesla.com/">Tesla</A> and LLM
+          e-commerce agents at <A href="https://www.amazon.com/">Amazon</A>.
         </p>
         <p>
-          Before that I pursued research in plasma physics and fusion. At
+          Earlier I pursued research in plasma physics and fusion. At
           Princeton’s{" "}
           <A href="https://dais.princeton.edu/resource-links/center-statistics-and-machine-learning">
             Center for Statistics and ML
