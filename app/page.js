@@ -39,13 +39,13 @@ export default function Home() {
           Princeton’s{" "}
           <A href="https://dais.princeton.edu/resource-links/center-statistics-and-machine-learning">
             Center for Statistics and ML
-          </A>
-          , I helped build a{" "}
+          </A>{" "}
+          I helped build a{" "}
           <A href="https://arxiv.org/abs/2409.03112">
             digital twin of a tokamak
           </A>{" "}
           in NVIDIA Omniverse, and at{" "}
-          <A href="https://www.anl.gov/">Argonne National Laboratory</A>, I{" "}
+          <A href="https://www.anl.gov/">Argonne National Laboratory</A> I{" "}
           <A href="https://www.alcf.anl.gov/news/summer-students-tackle-supercomputing-and-ai-research-projects">
             compressed plasma imaging data
           </A>{" "}
