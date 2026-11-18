@@ -1,1 +1,1 @@
-My personal website. Visit [here](https://apollol.ee)!
+My personal website. Visit [here](https://www.apollol.ee)!
