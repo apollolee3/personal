@@ -13,7 +13,7 @@ function A({ href, children }) {
 
 export default function Home() {
   return (
-    <div className="max-w-2xl mx-auto px-6 pt-16 md:pt-20 pb-16">
+    <div className="fade-in max-w-2xl mx-auto px-6 pt-16 md:pt-20 pb-16">
       <img
         src="/me.jpg"
         alt="Apollo Lee"
