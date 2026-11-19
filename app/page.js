@@ -27,26 +27,22 @@ export default function Home() {
         <p>
           I’m a researcher who enjoys building in software and hardware.
           Previously, I interned as a QR at{" "}
-          <A href="https://www.imc.com/us">IMC Trading</A>, where I developed a
-          volatility alpha strategy on the systematic equity options desk. I
-          also built test hardware for the V4 Supercharger and Gen 3 Mobile
-          Connector at <A href="https://www.tesla.com/">Tesla</A> and LLM
-          e-commerce agents at <A href="https://www.amazon.com/">Amazon</A>.
+          <strong>IMC Trading</strong>, where I developed a volatility alpha
+          strategy on the systematic equity options desk. I also built test
+          hardware for the V4 Supercharger and Gen 3 Mobile Connector at{" "}
+          <strong>Tesla</strong> and LLM e-commerce agents at{" "}
+          <strong>Amazon</strong>.
         </p>
         <p>
           Earlier I pursued research in plasma physics and fusion. At
-          Princeton’s{" "}
-          <A href="https://dais.princeton.edu/resource-links/center-statistics-and-machine-learning">
-            Center for Statistics and ML
-          </A>{" "}
-          I helped build a{" "}
+          Princeton’s Center for Statistics and ML I helped build a{" "}
           <A href="https://arxiv.org/abs/2409.03112">
             digital twin of a tokamak
           </A>{" "}
           in NVIDIA Omniverse, and at{" "}
-          <A href="https://www.anl.gov/">Argonne National Laboratory</A> I{" "}
+          Argonne National Laboratory I{" "}
           <A href="https://www.alcf.anl.gov/news/summer-students-tackle-supercomputing-and-ai-research-projects">
-            compressed plasma imaging data
+            preprocessed plasma imaging data
           </A>{" "}
           for deep learning disruption prediction on the Polaris supercomputer.
         </p>
